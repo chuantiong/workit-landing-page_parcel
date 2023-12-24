@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: 'primary font';
+    src: url('../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'secondary font';
+    src: url('../assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// colors
+$dark-purple: #24053E;
+$eucalyptus: #44FFA1;
+$davys-grey: #584D62;
+$ghost-white: #FCF8FF;
+$white-clr: #ffffff;
+
+// font family
+$primary-ff: 'primary font', san-serif;
+$secondary-ff: 'secondary font', san-serif;
+
+// font weight
+$fw-reg: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+// font size
+$root-fs: 16px;
+$fs-1rem: $root-fs;
+$fs-18px: 1.125rem;
+$fs-20px: 1.25rem;
+$fs-24px: 1.5rem;
+$fs-28px: 1.75rem;
+$fs-32px: 2rem;
+$fs-48px: 3rem;
+$fs-50px: 3.125rem;
+$fs-56px: 3.6rem;
+$fs-60px: 3.75rem;
+$fs-80px: 5rem;
+
+// line height
+$lh-28px: 28px;
+$lh-32px: 32px;
+$lh-36px: 36px;
+$lh-40px: 40px;
+$lh-48px: 48px;
+$lh-50px: 50px;
+$lh-56px: 56px;
+$lh-60px: 60px;
+$lh-64px: 64px;
+$lh-80px: 80px;
+
+// Utilities
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: $eucalyptus;
+    text-decoration-thickness: 3px;
+}

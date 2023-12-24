@@ -1,0 +1,61 @@
+// Animation
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+    }
+    
+    100% {
+        opacity: 100%;
+        filter: blur(0);
+    }
+}
+
+@keyframes move-up {
+    0% {
+        opacity: 0;
+        margin-top: 7em;
+    }
+
+    50% {
+        opacity: 0;
+        filter: blur(5px);
+        margin-top: 2.5em;
+    }
+    
+    75% {
+        background-color: $dark-purple;
+
+    }
+    
+    100% {
+        opacity: 100%;
+        filter: blur(0);
+        background: $eucalyptus;
+    }
+}
+
+@keyframes move-down {
+    0% {
+        // opacity: 0;
+        filter: blur(3px);
+        margin-bottom: 5em;
+    }
+
+    100% {
+        // opacity: 100%;
+        filter: blur(0);
+        margin-bottom: 0;
+    }
+}
+
+// Utilities 
+
+.hide {
+    display: none;
+}
+
+.add-fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}

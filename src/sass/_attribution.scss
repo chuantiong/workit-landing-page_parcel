@@ -1,0 +1,24 @@
+/* Footer */
+
+.attribution {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #F2F2F2;
+    opacity: .9;
+    padding: 2em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    &__text {
+        font-size: 11px;
+        text-align: center;
+        margin: 0;
+    }
+
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+

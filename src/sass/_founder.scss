@@ -1,0 +1,51 @@
+// Founder
+
+.founder {
+    text-align: center;
+    padding: calc(6.27em + 1.11em) 1em 0;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+        "img"
+        "content";
+
+    .image {
+        grid-area: img;
+        width: 281px;
+    }
+
+    &__texts-container {
+        grid-area: content;
+        background-color: $dark-purple;
+        padding: 2em;
+        position: relative;
+        z-index: 1;
+        margin-top: -3.31em;
+
+        .founder-title {
+            color: $white-clr;
+            font-size: $fs-32px;
+            font-weight: $fw-semi-bold;
+            line-height: $lh-48px;
+        }
+
+        .founder-description {
+            color: var(--White, #FFF);
+            font-size: $fs-1rem;
+            font-weight: $fw-reg;
+            line-height: $lh-28px;
+            margin-block: 1em 1.5em;
+        }
+
+        .founder-bg-image {
+            display: none;
+            width: fit-content;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: translate(0, 50%);
+            animation-name: fade-in;
+            animation-duration: 2s;
+        }
+    }
+}

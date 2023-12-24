@@ -1,0 +1,20 @@
+// Footer
+
+.footer {
+    padding: 4.6em 0 4em;
+    text-align: center;
+
+    &__logo {
+        width: 95.76px;
+    }
+
+    .social-media-icon {
+        width: 20px;
+    }
+
+    &__social-media-container {
+        display: flex;
+        gap: 1.75em;
+        margin-top: 3.628em;
+    }
+}
